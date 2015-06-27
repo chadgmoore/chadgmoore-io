@@ -26,7 +26,7 @@ h1, ul{
 }
 
 #wrapper a{
-	color: #999999;
+	color: #1485CC;
 	text-decoration: none;
 }
 
@@ -90,7 +90,7 @@ h1, ul{
 .Demo h1{
 	font-size: 4em;
 	margin-bottom: .5em;
-	color: #8C8C8C;
+	color: #1485CC;
 	font-family: 'Oswald', sans-serif;
 }
 
@@ -113,22 +113,22 @@ h1, ul{
 	line-height: 1.2em;
 }
 
-.Aligner {
+.Flex {
   display: flex;
   height: 100%;
   align-items: center;
   justify-content: center;
 }
 
-.Aligner-item {
+.Flex-item {
   max-width: 80%;
 }
 
-.Aligner-item--top {
+.Flex-item--top {
   align-self: flex-start;
 }
 
-.Aligner-item--bottom {
+.Flex-item--bottom {
   align-self: flex-end;
 }
 
