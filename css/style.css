@@ -3,7 +3,7 @@ html, body {
 	width 		: 100%; 
 	padding 	: 0;
 	margin 		: 0;
-	text-align: center;
+	text-align: left;
 
 }
 h1, ul{
@@ -52,16 +52,6 @@ h1, ul{
   color: #4C4C4C;
 }
 
-#randomTitle{
-	font-family: 'Oswald', sans-serif;
-	/*font-style: italic;*/
-	font-weight: bold;
-	font-size: .33em;
-	letter-spacing: 0.1em;
-/*	background-color: #343838;
-	color: #000;*/
-	padding: 0em;
-}
 
 #projectList{
 	font-size: 1em;
@@ -76,25 +66,27 @@ h1, ul{
 	list-style: none;
 }
 
-.Demo--spaced {
+.main--spaced {
   margin-bottom: 1.5em;
 }
-.Demo {
+.main {
   width: 100%;
   height: 100%;
   padding: 0em;
   background-color: #fff;
   border-radius: 3px;
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
-.Demo h1{
+.main h1{
 	font-size: 4em;
 	margin-bottom: .5em;
 	color: #1485CC;
 	font-family: 'Oswald', sans-serif;
 }
 
-.Demo h2{
+.main h2{
 	font-size: 1.33em;
 	margin-top: 1.66em;
 	margin-bottom: .1em;
@@ -102,38 +94,39 @@ h1, ul{
 	font-family: 'Oswald', sans-serif;
 }
 
-.Demo h3{
+.main h3{
 	font-size: 1em;
 	margin-bottom: .1em;
 	color: #8C8C8C;
 	font-family: 'Oswald', sans-serif;
 }
 
-.Demo p{
+.main p{
 	line-height: 1.2em;
+	text-align: left;
 }
 
-.Flex {
-  display: flex;
+.top {
+  display: top;
   height: 100%;
-  align-items: center;
+  align-items: left;
   justify-content: center;
 }
 
-.Flex-item {
+.top-item {
   max-width: 80%;
 }
 
-.Flex-item--top {
-  align-self: flex-start;
+.top-item--top {
+  align-self: top-start;
 }
 
-.Flex-item--bottom {
-  align-self: flex-end;
+.top-item--bottom {
+  align-self: top-end;
 }
 
 /* NAV */
-.nav{
+.links{
 	-webkit-font-smoothing: antialiased; 
 	color: #fff; 
 	width: 100%;
@@ -144,17 +137,17 @@ h1, ul{
 }
 
 
-.nav ul{
+.links ul{
 	display: inline-block;	
 }
 
-.nav li {
+.links li {
 	display: inline-block;
 	padding-right: .2em;
 	padding-left: .2em;
 }
 
-.nav a {
+.links a {
 	color: #999999;
 	text-decoration: none;
 }
