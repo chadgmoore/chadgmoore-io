@@ -30,7 +30,6 @@ h1, ul{
 }
 
 #wrapper a:hover{
-	/*text-decoration: underline;*/
 	border-bottom-style: solid;
 }
 
@@ -164,3 +163,17 @@ h1, ul{
 	color: #999999;
 	text-decoration: none;
 }
+
+/*MEDIA QUEERIES*/
+@media screen and (max-width: 500px) { 
+  .main h1{
+  	font-size: 2em;
+  	margin-top: 6em;
+  	}
+
+  .main h2{
+  	line-height: 1em;
+  }
+
+}
+
